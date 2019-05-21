@@ -2,22 +2,33 @@
 ///
 /// Returns <true> if gl_FragDepthEXT was successfully enabled, <false> otherwise
 
-var _buffer = buffer_create(4, buffer_grow, 1);
+//Create a teeny tiny 1x1 surface
 var _surface = surface_create(1, 1);
 
+//Create a buffer big enough for one pixel of RGBA data (4 bytes per pixel)
+var _buffer = buffer_create(4, buffer_grow, 1);
+
+//Use a shader to determine if gl_FragDepthEXT was successfully enabled (shader code below)
 surface_set_target(_surface);
 shader_set(shdFragDepthCheckCompatibility);
 draw_surface(_surface, 0, 0);
 shader_reset();
 surface_reset_target();
 
+//Copy the surface to the buffer
 buffer_get_surface(_buffer, _surface, buffer_surface_copy, 0, 0);
-var _test = buffer_peek(_buffer, 1, buffer_bool); //Check the green channel
 
+//Grab the contents of the green channel
+var _test = buffer_peek(_buffer, 1, buffer_u8);
+
+//Free up the memory we used for the surface and buffer
 surface_free(_surface);
 buffer_delete(_buffer);
 
+//Return a bool
 return (_test > 0);
+
+
 
 /*
 shdFragDepthCheckCompatibility:

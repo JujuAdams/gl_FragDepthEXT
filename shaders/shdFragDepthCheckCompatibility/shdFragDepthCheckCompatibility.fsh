@@ -8,7 +8,6 @@ void main()
 {
     gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0); //Default to red
     
-    //If we've successfully enabled the extension, make this pixel white
     #ifdef GL_EXT_frag_depth
     gl_FragColor = vec4(0.0, 1.0, 0.0, 1.0); //If gl_FragDepthEXT is enabled, use green instead
     #endif
