@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "47ea6436-d3b5-4b21-a408-b9725025f226",
+            "Value": {
+                "id": "d5ed66c7-575c-496c-8b84-cd0c95cdd27c",
+                "resourcePath": "rooms\\rCheckCompatibility\\rCheckCompatibility.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6ca2e380-3920-4fdc-9a9e-4f8a74d61db0",
             "Value": {
                 "id": "f9df154f-f403-427b-944a-5125b033b916",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "8026592c-d020-4715-874e-e791d503f65b",
+            "Value": {
+                "id": "51abebbc-e2ec-4489-a2b0-29e75b2e8f34",
+                "resourcePath": "scripts\\check_gl_FragDepthEXT\\check_gl_FragDepthEXT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "c7a9885f-b87c-4644-a0a7-1109642cbb8a",
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "9037e683-c554-4329-ab73-ea72d185215f",
+            "Value": {
+                "id": "d50c9421-753b-4180-87df-a9141be063f8",
+                "resourcePath": "objects\\oFragDepthCheckCompatibility\\oFragDepthCheckCompatibility.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9e721a56-e638-4a94-91f1-21ac42cc4d99",
             "Value": {
                 "id": "706e8966-25ae-4955-a2e8-40bc395eb99f",
@@ -196,6 +220,14 @@
                 "id": "c4ccda0f-770f-421a-bf56-08402a42ec4b",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b0d1d776-f05b-4459-b73f-afe6aaa8f9e5",
+            "Value": {
+                "id": "9fc6b727-1773-421c-9927-6c85100b8f5d",
+                "resourcePath": "shaders\\shdFragDepthCheckCompatibility\\shdFragDepthCheckCompatibility.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -272,7 +304,7 @@
         }
     ],
     "script_order": [
-        
+        "8026592c-d020-4715-874e-e791d503f65b"
     ],
     "tutorial": ""
 }
