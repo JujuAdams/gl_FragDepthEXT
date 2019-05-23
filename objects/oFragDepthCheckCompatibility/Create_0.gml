@@ -1,4 +1,4 @@
-if check_gl_FragDepthEXT()
+if shader_is_compiled(shdFragDepth)
 {
     //If this device support gl_FragDepthEXT, go to the next room
     room_goto_next();

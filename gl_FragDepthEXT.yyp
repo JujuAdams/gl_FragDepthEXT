@@ -42,7 +42,7 @@
             "Key": "0f1dffc0-177b-4ed2-a8e4-2444c98f3680",
             "Value": {
                 "id": "4a6e21e0-1a37-4563-ac6a-9298091ab259",
-                "resourcePath": "objects\\oTest\\oTest.yy",
+                "resourcePath": "objects\\oDemo\\oDemo.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "8026592c-d020-4715-874e-e791d503f65b",
-            "Value": {
-                "id": "51abebbc-e2ec-4489-a2b0-29e75b2e8f34",
-                "resourcePath": "scripts\\check_gl_FragDepthEXT\\check_gl_FragDepthEXT.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "c7a9885f-b87c-4644-a0a7-1109642cbb8a",
@@ -220,14 +212,6 @@
                 "id": "c4ccda0f-770f-421a-bf56-08402a42ec4b",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "b0d1d776-f05b-4459-b73f-afe6aaa8f9e5",
-            "Value": {
-                "id": "9fc6b727-1773-421c-9927-6c85100b8f5d",
-                "resourcePath": "shaders\\shdFragDepthCheckCompatibility\\shdFragDepthCheckCompatibility.yy",
-                "resourceType": "GMShader"
             }
         },
         {
@@ -304,7 +288,7 @@
         }
     ],
     "script_order": [
-        "8026592c-d020-4715-874e-e791d503f65b"
+        
     ],
     "tutorial": ""
 }

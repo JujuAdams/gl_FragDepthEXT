@@ -1,5 +1,5 @@
 //GM doesn't usually enable gl_FragDepthEXT, but we can force it on
-#extension GL_EXT_frag_depth : enable
+#extension GL_EXT_frag_depth : require
 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
