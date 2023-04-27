@@ -1,6 +1,6 @@
 <h1 align="center">gl_FragDepthEXT</h1>
 
-### @jujuadams
+### [Juju Adams](https://www.jujuadams.com/)
 
 Simple example of gl_FragDepthEXT use.
 
